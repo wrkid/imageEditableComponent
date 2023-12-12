@@ -1,0 +1,17 @@
+.container-div {
+    display: inline-block;
+    min-width: 280px;
+    min-height: 280px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: 30px;
+}
+
+.container-div__header {
+    height: 20px;
+    border-bottom: 1px solid #000;
+}
+
+.container-div__content {
+    padding: 10px;
+}

@@ -1,0 +1,16 @@
+.context-menu {
+    background-color: #333;
+    border: 1px solid #333;
+    border-radius: 2px;
+    width: 120px;
+    color: #888;
+    & div {
+        border-bottom: 1px solid #000;
+        height: 30px;
+        line-height: 30px;
+        &:hover {
+            background-color: #464545;
+            cursor: pointer;
+        }
+    }
+}
